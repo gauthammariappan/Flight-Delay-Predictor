@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+backend/data/*.csv
+backend/models/*.pkl
+backend/models/*.json
+*.pyc
+
+# Node
+node_modules/
+npm-debug.log*
+frontend/build/
+.env.local
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (too large for git)
+*.pkl
+*.joblib
+*.h5
